@@ -17,5 +17,5 @@ jobs:
           dotnet restore
       - name: Build
         run: |
-          cd Netflixprojectcapstone
+          cd netflixprojectcapstone
           dotnet build --configuration Release
